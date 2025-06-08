@@ -1,0 +1,15 @@
+{
+  "ext": "ts,json",
+  "exec": "npx ts-node ./index.ts",
+  "watch": [
+    "index.ts",
+    "Server",
+    "Shop.API",
+    "Shared"
+  ],
+  "paths": {
+    "@Shared/*": [
+      "Shared/*"
+    ]
+  }
+}
